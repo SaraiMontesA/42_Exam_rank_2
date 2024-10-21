@@ -6,7 +6,7 @@
 /*   By: sarmonte <sarmonte@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 17:21:49 by sarmonte          #+#    #+#             */
-/*   Updated: 2024/10/21 13:06:40 by sarmonte         ###   ########.fr       */
+/*   Updated: 2024/10/21 13:07:35 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ Your function must be declared as follows:
 void	ft_putstr(char *str);
 */
 
-# include <unistd.h>
+# include <unistd.h> // Hace falta para write
 
 int	ft_putstr(char *str)
 {
