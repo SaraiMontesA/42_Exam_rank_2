@@ -6,7 +6,7 @@
 /*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 17:21:49 by sarmonte          #+#    #+#             */
-/*   Updated: 2024/11/01 10:05:32 by sarmonte         ###   ########.fr       */
+/*   Updated: 2024/11/01 10:21:21 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ Your function must be declared as follows:
 char    *ft_strcpy(char *s1, char *s2);
 */
 
-int	ft_strcpy(char *s1, char *s2)
+char	*ft_strcpy(char *s1, char *s2)
 {
 	int	index;
 
@@ -35,9 +35,10 @@ int	ft_strcpy(char *s1, char *s2)
 		index++;
 	}
 	s1[index] = '\0';
-	return (0);
+	return (s1);
 }
 
+/*
 // Main para probar la función
 
 # include <stdio.h>	// Hace falta para el printf
@@ -45,7 +46,7 @@ int	ft_strcpy(char *s1, char *s2)
 int main()
 {
 	//int	len;
-	char *s1 = "Cadena";
+	char s1[100] = "Cadena";
 	char *s2 = "Cadenita";
 	char *ret;
 
@@ -57,7 +58,7 @@ int main()
 	printf("Cadena 2: %s", s2);
 	printf("\n");
 	
-	//ft_strcpy(s1, s2);
+	ret = ft_strcpy(s1, s2);
 
 	printf("\n");
 	printf("Datos modificados");
@@ -69,5 +70,4 @@ int main()
 
 	return (0);
 }
-/*
 */
