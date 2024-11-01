@@ -6,7 +6,7 @@
 /*   By: sarmonte <sarmonte@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 17:21:49 by sarmonte          #+#    #+#             */
-/*   Updated: 2024/11/01 09:42:48 by sarmonte         ###   ########.fr       */
+/*   Updated: 2024/11/01 10:05:32 by sarmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,28 +34,36 @@ int	ft_strcpy(char *s1, char *s2)
 		s1[index] = s2[index];
 		index++;
 	}
-	s1[index] = "\0";
-	return (index);
+	s1[index] = '\0';
+	return (0);
 }
+
+// Main para probar la función
 
 # include <stdio.h>	// Hace falta para el printf
 
 int main()
 {
 	//int	len;
-	char *s1 = "Cadena 1";
-	char *s2 = "Cadena 2";
+	char *s1 = "Cadena";
+	char *s2 = "Cadenita";
+	char *ret;
 
 	printf("\n");
-	printf("Datos originales")
-	printf("Cadena 1: %s", s1);
-	printf("Cadena 2: %s", s2);
+	printf("Datos iniciales");
 	printf("\n\n");
-	
-	ft_strcpy(s1, s2);
-
-	printf("Datos modificados")
 	printf("Cadena 1: %s", s1);
+	printf("\n");
+	printf("Cadena 2: %s", s2);
+	printf("\n");
+	
+	//ft_strcpy(s1, s2);
+
+	printf("\n");
+	printf("Datos modificados");
+	printf("\n\n");
+	printf("Cadena 1: %s", s1);
+	printf("\n");
 	printf("Cadena 2: %s", s2);
 	printf("\n\n");
 
