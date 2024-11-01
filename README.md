@@ -15,7 +15,7 @@ Puede ser cualquiera de las 12 funciones/programas siguientes:
 
     (Char original order - 01) - - ft_strlen
     (Char original order - 02) - - ft_putstr
-    (Char original order - 04)   - ft_strcpy
+    (Char original order - 04) - - ft_strcpy
     (Char original order - 06)   - ulstr
     (Char original order - 08)   - first_word
     (Char original order - 15)   - search_and_replace
