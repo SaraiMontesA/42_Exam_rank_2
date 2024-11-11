@@ -15,9 +15,9 @@ Puede ser cualquiera de las 12 funciones/programas siguientes:
 
     (Char original order - 01) - - ft_strlen
     (Char original order - 02) - - ft_putstr
-    (Char original order - 04)   - ft_strcpy
-    (Char original order - 06)   - ulstr
-    (Char original order - 08)   - first_word
+    (Char original order - 04) - - ft_strcpy
+    (Char original order - 06) - - ulstr
+    (Char original order - 08) - - first_word
     (Char original order - 15)   - search_and_replace
     (Char original order - 16)   - rotone
     (Char original order - 17)   - rot_13
@@ -31,7 +31,7 @@ Puede ser cualquiera de las 12 funciones/programas siguientes:
 2️⃣ Nivel 2
 Puede ser cualquiera de las 20 funciones/programas siguientes:
 
-    (Char original order - 03)   - ft_strcmp
+    (Char original order - 03) - - ft_strcmp
     (Char original order - 05)   - ft_strdup
     (Char original order - 09)   - last_word
     (Char original order - 10)   - camel_to_snake
@@ -94,3 +94,4 @@ Puede ser cualquiera de las 10 funciones/programas siguientes:
     (Linked Lists - 03)          - ft_list_remove_if
     (Linked Lists - 04)          - sort_list
 
+Probando commits
