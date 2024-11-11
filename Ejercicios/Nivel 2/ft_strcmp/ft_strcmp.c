@@ -31,24 +31,38 @@ int	ft_strcmp(char *s1, char *s2)
 
 	index = 0;
 
-	while (str[index])
+	while (s1[index])
+		if (s1[index] == s2[index])
+			index++;
+		else
+			return (s1[index] - s2[index]);
 		index++;
 	return (index);
 }
 
-/*
 # include <stdio.h>	// Hace falta para el printf
 
 int main()
 {
-	int	len;
+	char	*s1;
+	char	*s2;
+	int		result;
 
-	len = ft_strlen("Hello");
+	s1 = "Hello";
+	s2 = "Hello";
 
+	result = ft_strcmp(s1, s2);
+	
 	printf("\n");
-	printf("La cadena proporcionada mide %d caracteres", len);
+	if (result == 0)
+		printf("Las cadenas son iguales");
+	else if (result > 0)
+		printf("La primera cadena es mayor que la segunda");
+	else
+		printf("La primera cadena es menor que la segunda");
 	printf("\n\n");
 
 	return (0);
 }
+/*
 */
